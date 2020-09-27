@@ -29,3 +29,10 @@ You will also need to initialize an googlecred.json file with the following:
 ```JavaScript
 See Firebase API on how to setup your own Firestore!
 ```
+
+# How To Start
+```
+git clone https://github.com/kenken182/safeWave
+npm install
+npm start
+```
