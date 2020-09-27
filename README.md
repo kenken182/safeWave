@@ -3,6 +3,9 @@ SafeWave is a webapp made using Firebase Firestore that helps create events and 
 
 # Images
 ![Picture1](https://i.imgur.com/ZiSIhtB.png)
+![Picture2](https://i.imgur.com/ig8fLky.png)
+![Picture3](https://i.imgur.com/wlfS7Gf.png)
+![Picture4](https://i.imgur.com/QZ6f6O9.png)
 
 # Requirements 
 In order to use this, you need to initialize a Firebase app. A config.js file is needed with a variable called firebaseConfig, like this:
