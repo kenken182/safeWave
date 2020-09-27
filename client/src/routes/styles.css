@@ -1,0 +1,121 @@
+.container{
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px gray;
+    width: auto;
+    background-color: white;
+    opacity:0.98;
+  }
+  
+  .content {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container h1 {
+    margin-bottom: 25px;
+  }
+  
+  .info {
+    flex: 1;
+    width: auto;
+  }
+  
+  .form {
+    flex: 1;
+    /* padding: 20px;
+    border-left: 1px grey;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-style: solid; */
+  }
+  
+  .form-control.is-valid {
+    padding-right: 0.75rem;
+  }
+  
+  .form-control.is-invalid {
+    padding-right: 0.75rem;
+  }
+  
+  .button-spaced {
+    margin-right: 10px;
+  }
+  
+  .current-step {
+    font-weight:bold;
+    color: #428bca;
+  }
+  
+  .finished-step {
+    text-decoration: line-through;
+    color: #999999
+  }
+  
+  .form-group.required .control-label:after {
+    content:"*";
+    color:red;
+    padding-left:5px;
+  }
+  
+  .info h1 {
+    color: teal;
+  }
+  
+  .floating {
+    padding: 20px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  
+  .spacing {
+    padding: 20px;
+  }
+  
+  .welcome {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .automaton-loader {
+    position: absolute;
+    visibility: hidden;
+    height:0px;
+    width:0px;
+    z-index:-1000;
+    right:-10px;
+    top:-100px;
+    overflow:hidden;
+  }
+  
+  .buttonBlock {
+    width:200px;
+  }
+  
+  .bottomMessage {
+    margin-top:40px;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .container {
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 1px 1px 5px gray;
+      width: 90vw;
+      background-color: white;
+      opacity:0.98;
+    }
+  }
