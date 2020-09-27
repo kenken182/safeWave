@@ -1,12 +1,6 @@
 # SafeWave
 SafeWave is a webapp made using Firebase Firestore that helps create events and gatherings for people. However, for Covid-19 reasons, we have decided to limit each gathering to 10 people! The goal is to help people's mental health. 
 
-# Images 
-
-
-# Not shown in the photos, however is a feature: 
-- Create your own meeting
-
 # Requirements 
 In order to use this, you need to initialize a Firebase app. A config.js file is needed with a variable called firebaseConfig, like this:
 
