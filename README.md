@@ -1,15 +1,11 @@
-# allergyDetector
-allergyDetect is a React Native iOS application that allows a user to take a photo of their meal, and will cross reference the meal's ingredients with the users list of allergies in order to determine if the user is allergic to the meal or not. Included is user-specific allergens, as well as ability to sign up and login.
-
-allergyDetector is created using React Native, Express.js, Firebase, Google Cloud APIs, and Edamame API.
+# SafeWave
+SafeWave is a webapp made using Firebase Firestore that helps create events and gatherings for people. However, for Covid-19 reasons, we have decided to limit each gathering to 10 people! The goal is to help people's mental health. 
 
 # Images 
 
 
 # Not shown in the photos, however is a feature: 
-(iOS simulator does not allow for photos, however on an iPhone, these are functional and tested)
-- List of foods after photo is taken
-- Showing the user if they are allergic or not
+- Create your own meeting
 
 # Requirements 
 In order to use this, you need to initialize a Firebase app. A config.js file is needed with a variable called firebaseConfig, like this:
@@ -27,7 +23,7 @@ export const firebaseConfig = {
     googleCloudVisionApiKey: "x",
   };
 ```
-The config.js file should be located in the root of your project.
+The firebaseconfig.js file should be located in the root of your project and in the root of your frontend in client.
 
 You will also need to initialize an googlecred.json file with the following:
 ```JavaScript
